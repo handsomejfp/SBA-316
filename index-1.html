@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Web Application</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Dynamic Web Application</h1>
+      <h4> DOM properties, methods, and techniques, DOM events and JavaScript validation  </h4>
+    <form id="user-form">
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id" >
+        <br>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" >
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" >
+        <br>
+        <label for="gender">Gender:</label>
+        <div id="gender-options">
+            <input type="radio" name="gender" value="male" >
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" >
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="other" >
+            <label for="other">Other</label>
+        </div>
+        <br>
+        <span id="error-message" class="error"></span>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+
+    <h2>Using BOM web app</h2>
+    <div id="user-data"></div>
+    <div id="info"></div>
+
+    <button id="refresh-btn">Refresh</button>
+    <button id="new-window-btn">Open New Window</button>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
